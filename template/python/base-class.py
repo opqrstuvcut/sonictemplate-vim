@@ -1,9 +1,8 @@
-"""
-{{_name_}}
-"""
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
 
 
-class {{_expr_:substitute('{{_input_:name}}', '\w\+', '\u\0', '')}}(object):
+class {{_expr_: substitute('{{_input_:name}}', '\w\+', '\u\0', '')}}(object):
 	def __init__(self{{_cursor_}}):
 
     def __repr__(self):
